@@ -25,4 +25,7 @@ public class DbHelper extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(AlbumDAO.DROP_REQUEST);
         sqLiteDatabase.execSQL(AlbumDAO.CREATE_REQUEST);
     }
+
+
+
 }
